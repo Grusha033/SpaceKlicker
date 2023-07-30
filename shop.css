@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+#shopCont {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: -600px;
+    top: 50%;
+    bottom: 50%;
+    transition: 1s;
+    z-index: 101;
+}
+
+.shop {
+    width: 500px;
+    height: 600px;
+    background-color: #DAFDBA;
+    border-bottom: 7px solid black;
+    border-top: 7px solid black;
+    border-right: 7px solid black;
+    border-radius: 0 50px 50px 0;
+    background-image: url(https://cdn.discordapp.com/attachments/994888993726545960/1123546146648883240/-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 38px -3px rgba(0,18,3,1);
+}
+
+.shop-button-cont {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-right: 10px;
+    justify-content: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+.shop-button {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    justify-content: center;
+    width: 142px;
+    height: 120px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123553830752223232/3.png);
+}
+
+.shop-png {
+    width: 40px;
+    height: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.text-shop {
+    text-align: center;
+}
+
+.shop-center-png {
+    display: flex;
+    justify-content: center;
+}
+
+#ENEMcont {
+    position: fixed;
+    left: -600px;
+    top: 10%;
+    transition: 1s;
+    z-index: 102;
+    transition: 1s;
+}
+
+.ENEM {
+    display: flex;
+    align-items: center;
+    background-color: #45C4B0;
+    border-bottom: 4px solid #012030;
+    border-top: 4px solid #012030;
+    border-right: 4px solid #012030;
+    padding-top: 3px;
+    padding-right: 15px;
+    padding-bottom: 3px; 
+    border-radius: 0 50px 50px 0;
+}
+
+.ENEM-png {
+    width: 50px;
+    height: 50px;
+    padding-left: 6px;
+}
+
+.ENEM-text {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+    color: white;
+}
+
+#ENELcont {
+    position: fixed;
+    left: -600px;
+    top: 15%;
+    transition: 1s;
+    z-index: 102;
+    transition: 1s;
+}

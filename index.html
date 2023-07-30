@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/space-astronomy-4/512/asteroids_belt_space_astronomy-512.png">
+    <link rel="stylesheet" href="shop.css">
+    <title>SPACE CLICKER</title>
+</head>
+<body>
+    
+    <div class="header-cont">
+        <div class="header">
+            <img class="cut-img" src="https://cdn-icons-png.flaticon.com/512/4076/4076267.png"><p id="money">0</p>
+        </div>
+
+        <div class="headerPay">
+            <img class="cut-img-Pay" src="https://cdn.discordapp.com/attachments/994888993726545960/1123610193922637954/deposit.png"><p id="pay">0</p>
+        </div>
+
+        <div id="headerShop">
+            <img class="cut-img-shop" src="https://cdn.discordapp.com/attachments/994888993726545960/1123575508093915166/shopping-bag.png">
+        </div>
+
+    </div>
+
+    <div class="space-cont">
+        <div id="space">
+            <div id="sun"></div>
+            <div id="mercury"></div>
+            <div id="venus"></div>
+            <div id="earth"></div>
+            <div id="mars"></div>
+            <div id="jupiter"></div>
+            <div id="saturn"></div>
+            <div id="uranus"></div>
+            <div id="neptune"></div>
+        </div>
+    </div>
+
+
+    <!-- магазин -->
+    <div id="shopCont">
+        <div class="shop">
+
+            <div class="shop-button-cont">
+
+                <div title="+1 к нажатию" id="cursorBuy" class="shop-button">
+                    <p class="text-shop">Курсор</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123556602956501013/pointer.png">
+                    </div>
+                    <p id="lvlONE" class="text-shop">lvl: 1</p>
+                    <p id="costONE" class="text-shop">$ 70</p>
+                </div>
+
+                <div title="+1" id="rocketBuy" class="shop-button">
+                    <p class="text-shop">Ракета</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123572375947067504/rocket.png">
+                    </div>
+                    <p id="lvlTWO" class="text-shop">lvl: 0</p>
+                    <p id="costTWO" class="text-shop">$ 90</p>
+                </div>
+
+                <div title="+60" id="mercuryBuy" class="shop-button">
+                    <p class="text-shop">Меркурий</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123528015918419968/mercury.png">
+                    </div>
+                    <p id="lvlTHREE" class="text-shop">lvl: 0</p>
+                    <p id="costTHREE" class="text-shop">$ 30000</p>
+                </div>
+
+                <div title="+90" id="venusBuy" class="shop-button">
+                    <p class="text-shop">Венера</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123528575908331530/venus.png">
+                    </div>
+                    <p id="lvlFOUR" class="text-shop">lvl: 0</p>
+                    <p id="costFOUR" class="text-shop">$ 100000</p>
+                </div>
+
+                <div title="+150" id="earthBuy" class="shop-button">
+                    <p class="text-shop">Земля</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123529358217334794/earth-globe.png">
+                    </div>
+                    <p id="lvlFIVE" class="text-shop">lvl: 0</p>
+                    <p id="costFIVE" class="text-shop">$ 170000</p>
+                </div>
+
+                <div title="Расширяет территорию космоса" id="spaceBuy" class="shop-button">
+                    <p class="text-shop">Космос</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123918404580036658/-1.png">
+                    </div>
+                    <p id="lvlSIX" class="text-shop">lvl: 0</p>
+                    <p id="costSIX" class="text-shop">$ 320000</p>
+                </div>
+
+                <div title="+310" id="marsBuy" class="shop-button">
+                    <p class="text-shop">Марс</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123915672691408917/mars.png">
+                    </div>
+                    <p id="lvlSEVEN" class="text-shop">lvl: 0</p>
+                    <p id="costSEVEN" class="text-shop">$ 430000</p>
+                </div>
+
+                <div title="+480" id="jupiterBuy" class="shop-button">
+                    <p class="text-shop">Юпитер</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123919753594023936/jupiter.png">
+                    </div>
+                    <p id="lvlEIGHT" class="text-shop">lvl: 0</p>
+                    <p id="costEIGHT" class="text-shop">$ 630000</p>
+                </div>
+
+                <div title="+650" id="saturnBuy" class="shop-button">
+                    <p class="text-shop">Сатурн</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123929393794924715/saturn.png">
+                    </div>
+                    <p id="lvlNINE" class="text-shop">lvl: 0</p>
+                    <p id="costNINE" class="text-shop">$ 930000</p>
+                </div>
+
+                <div title="+1350" id="uranusBuy" class="shop-button">
+                    <p class="text-shop">Уран</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123954858047852734/uranus.png">
+                    </div>
+                    <p id="lvlTEN" class="text-shop">lvl: 0</p>
+                    <p id="costTEN" class="text-shop">$ 1100000</p>
+                </div>
+
+                <div title="+2650" id="neptuneBuy" class="shop-button">
+                    <p class="text-shop">Уран</p>
+                    <div class="shop-center-png">
+                        <img class="shop-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123965560544301066/neptune.png">
+                    </div>
+                    <p id="lvlELEVEN" class="text-shop">lvl: 0</p>
+                    <p id="costELEVEN" class="text-shop">$ 2500000</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- магазин конец -->
+
+    <!-- ErrNotEnoughMoney -->
+    <div id="ENEMcont">
+        <div class="ENEM">
+            <img class="ENEM-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123598974931173416/free-icon-cross-6711656.png">
+            <p class="ENEM-text">Недостаточно средств для покупки</p>
+        </div>
+    </div>
+
+    <!-- ErrNotEnoughLvl -->
+    <div id="ENELcont">
+        <div class="ENEM">
+            <img class="ENEM-png" src="https://cdn.discordapp.com/attachments/994888993726545960/1123598974931173416/free-icon-cross-6711656.png">
+            <p class="ENEM-text">Нужен <span id="ENELlvl">1</span> lvl космоса!</p>
+        </div>
+    </div>
+
+    <div id="settingsCont">
+        <div class="settings">
+            <img class="settings-img" src="https://cdn.discordapp.com/attachments/994888993726545960/1123996437378781286/settings.png">
+        </div>
+    </div>
+
+    <div id="settingsmenu">
+        <p class="settingstext">Удалить прогресс?</p>
+        <div class="settingsChose">
+            <p id="no">Нет!</p>
+            <p id="yes">Да!</p>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

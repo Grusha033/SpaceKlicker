@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-cont {
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    right: 50%;
+    position: fixed;
+    z-index: 102;
+}
+
+.header {
+    display: flex;
+    background-color: #45C4B0;
+    border-bottom: 4px solid #012030;
+    border-left: 4px solid #012030;
+    border-right: 4px solid #012030;
+    border-radius: 0 0 50px 50px;
+    /* width: 210px; */
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 38px -3px rgba(0,18,3,1);
+}
+
+#headerShop {
+    display: flex;
+    background-color: #45C4B0;
+    border-bottom: 4px solid #012030;
+    border-left: 4px solid #012030;
+    border-right: 4px solid #012030;
+    border-radius: 0 0 50px 50px;
+    /* width: 210px; */
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 38px -3px rgba(0,18,3,1);
+    margin-left: 50px;
+}
+
+.headerPay {
+    display: flex;
+    background-color: #45C4B0;
+    border-bottom: 4px solid #012030;
+    border-left: 4px solid #012030;
+    border-right: 4px solid #012030;
+    border-radius: 0 0 50px 50px;
+    /* width: 210px; */
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 38px -3px rgba(0,18,3,1);
+    margin-left: 50px;
+}
+
+.cut-img-Pay {
+    width: 70px;
+    height: 70px;
+    padding-left: 20px;
+}
+
+.cut-img {
+    width: 70px;
+    height: 70px;
+    padding-left: 20px;
+}
+
+.cut-img-shop {
+    width: 60px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#money {
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    padding-right: 20px;
+    padding-left: 10px;
+    color: black;
+}
+
+#pay {
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    padding-right: 20px;
+    padding-left: 10px;
+    color: black;
+}
+
+.space-cont {
+    display: flex;
+    justify-content: center;
+}
+
+#space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    width: 900px;
+    height: 600px;
+    border-radius: 0 50px 0 50px;
+    background: url(https://cdn.discordapp.com/attachments/781842297800097804/1123522178919444570/1b7358bfa08999ce.png);
+    box-shadow: 0px 0px 38px -3px rgba(0,18,3,1);
+}
+
+#sun {
+    width: 100px;
+    height: 100px;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123525146838310922/sun.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+#sun:hover {
+    animation: rotate 6s infinite linear;
+}
+
+#mercury {
+    width: 43px;
+    height: 43px;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123528015918419968/mercury.png);
+    background-size: contain;
+    position: absolute;
+    padding-left: 175px;
+    background-repeat: no-repeat;
+    z-index: 99;
+    opacity: 0%;
+    transition: 5s;
+}
+
+#venus {
+    width: 50px;
+    height: 50px;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123528575908331530/venus.png);
+    background-size: contain;
+    position: absolute;
+    padding-left: 320px;
+    background-repeat: no-repeat;
+    z-index: 98;
+    opacity: 0%;
+    transition: 5s;
+}
+
+#earth {
+    width: 70px;
+    height: 70px;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123529358217334794/earth-globe.png);
+    background-size: contain;
+    position: absolute;
+    padding-left: 520px;
+    background-repeat: no-repeat;
+    z-index: 97;
+    opacity: 0%;
+    transition: 7s;
+}
+
+#mars {
+    width: 80px;
+    height: 80px;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123915672691408917/mars.png);
+    background-size: contain;
+    position: absolute;
+    padding-left: 770px;
+    background-repeat: no-repeat;
+    z-index: 96;
+    opacity: 0%;
+    transition: 9s;
+}
+
+#jupiter {
+    width: 90px;
+    height: 90px;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123919753594023936/jupiter.png);
+    background-size: contain;
+    position: absolute;
+    padding-left: 1080px;
+    background-repeat: no-repeat;
+    z-index: 95;
+    opacity: 0%;
+    transition: 11s;
+}
+
+#saturn {
+    width: 100px;
+    height: 100px;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123929393794924715/saturn.png);
+    background-size: contain;
+    position: absolute;
+    padding-left: 1400px;
+    background-repeat: no-repeat;
+    z-index: 94;
+    opacity: 0%;
+    transition: 15s;
+}
+
+#uranus {
+    width: 113px;
+    height: 113px;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123954858047852734/uranus.png);
+    background-size: contain;
+    position: absolute;
+    padding-left: 1750px;
+    background-repeat: no-repeat;
+    z-index: 93;
+    opacity: 0%;
+    transition: 20s;
+}
+
+#neptune {
+    width: 125px;
+    height: 125px;
+    background: url(https://cdn.discordapp.com/attachments/994888993726545960/1123965560544301066/neptune.png);
+    background-size: contain;
+    position: absolute;
+    padding-left: 2310px;
+    background-repeat: no-repeat;
+    z-index: 93;
+    opacity: 0%;
+    transition: 24s;
+}
+
+#settingsCont {
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+}
+
+.settings-img {
+    width: 70px;
+    height: 70px;
+}
+
+#settingsmenu {
+    position: fixed;
+    left: -600px;
+    transition: 1s;
+    bottom: 100px;
+    background-color: #45C4B0;
+    width: 350px;
+    height: 170px;
+    border-bottom: 4px solid #012030;
+    border-top: 4px solid #012030;
+    border-right: 4px solid #012030;
+    border-radius: 0 40px 40px 0;
+    font-family: 'Russo One', sans-serif;
+    z-index: 101;
+}
+
+.settingstext {
+    font-size: 23px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.settingsChose {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#yes {
+    background-color: rgb(228, 101, 101);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid #012030;
+    margin-left: 20px;
+}
+#no {
+    background-color: rgb(49, 241, 65);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid #012030;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
